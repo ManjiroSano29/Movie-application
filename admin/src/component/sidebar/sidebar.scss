@@ -1,0 +1,28 @@
+.admin_sidebar{
+    position: sticky;
+    width: 209px;
+    margin-top: 70px;
+    font-size: 25px;
+    border-right: 5px solid rgb(240, 240, 255);
+    
+    .admin_menu{
+        .admin_feature{
+            text-decoration: none;
+            display: flex;
+            margin-left: 30px;
+            cursor: pointer;
+            align-items: center;
+            width: 180px;
+            height: 50px;
+            border-radius: 10px;
+            
+            &:hover{
+                background-color: rgb(240, 240, 255);
+            }
+            
+            .admin_icon{
+                font-size: 35px;
+            }            
+        }
+    }
+}

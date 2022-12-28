@@ -1,0 +1,39 @@
+.add_movies{
+    width: 72%;
+    margin: auto;
+    margin-top: -480px;
+    .add_movies_forms{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        .add_movies_form{
+            margin-left: 30px;
+            margin-top: -10px;
+            display: flex;
+            flex-direction: column;
+            padding: 15px 0;
+            .label{
+                color: red;
+                font-size: 20px;
+            }
+            .file{
+                padding: 10px;
+            }
+            .movies_text{
+                width: 200px;
+                height: 40px;
+            }
+        }
+    }
+
+    .add_movies_button{
+        height: 40px;
+        width: 100px;
+        position: absolute;
+        margin-top: 464px;
+        margin-left: 1166px;
+        cursor: pointer;
+        background-color: cyan;
+        border: cyan;
+    }
+}

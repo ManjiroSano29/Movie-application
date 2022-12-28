@@ -1,0 +1,45 @@
+.reset{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/login/login-the-crown_2-1500x1000.jpg');
+    .reset_logo{
+        width: 200px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .reset_container{
+        background-color: white;
+        width: 35%;
+        margin: auto;
+
+        .reset_form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+            height: 400px;
+            margin: auto;
+            margin-top: 100px;
+
+            .reset_input{
+                margin-bottom: 10px;
+                height: 35px;
+                font-size: 20px;
+            }
+
+            .reset_button{
+                height: 40px;
+                font-size: 23px;
+                cursor: pointer;
+                margin-top: 15px;
+                color: white;
+                background-color: #3b79ff;
+                border: 1px solid #3b79ff;
+                &:hover{
+                    background-color: #3f99ff;
+                }
+            }
+        }
+    }
+}
